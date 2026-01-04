@@ -2,6 +2,7 @@
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
 # Binaries for programs and plugins
+.gitignore
 *.exe
 *.exe~
 *.dll
@@ -10,6 +11,10 @@
 
 # Test binary, built with `go test -c`
 *.test
+test*
+*test.go
+test/
+tests/
 
 # Code coverage profiles and other test artifacts
 *.out
@@ -30,3 +35,4 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+.code-workspace
