@@ -32,6 +32,10 @@ func NewSawitDB(filePath string) (*SawitDB, error) {
 	}, nil
 }
 
+func (db *SawitDB) Close() error {
+	return db.Pager.Close()
+}
+
 func (db *SawitDB) Query(queryString string, params map[string]interface{}) (interface{}, error) {
 	cmd := db.Parser.Parse(queryString, params)
 

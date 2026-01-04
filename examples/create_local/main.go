@@ -22,6 +22,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Failed to create DB: %v", err)
 	}
+	defer db.Close()
 
 	fmt.Println("Generating example.sawit...")
 

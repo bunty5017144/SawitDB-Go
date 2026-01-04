@@ -108,3 +108,10 @@ func (p *Pager) AllocPage() (uint32, error) {
 func GetPageSize() int {
 	return PAGE_SIZE
 }
+
+func (p *Pager) Close() error {
+	if p.file != nil {
+		return p.file.Close()
+	}
+	return nil
+}

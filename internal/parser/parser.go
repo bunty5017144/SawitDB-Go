@@ -45,10 +45,11 @@ type Criteria struct {
 	Logic      string // AND / OR
 }
 
+var tokenRegex = regexp.MustCompile(`\s*(=>|!=|>=|<=|<>|[(),=*.<>?]|[a-zA-Z_]\w*|@\w+|\d+|'[^']*'|"[^"]*")\s*`)
+
 func (qp *QueryParser) Tokenize(sql string) []string {
 	// \s*(=>|!=|>=|<=|<>|[(),=*.<>?]|[a-zA-Z_]\w*|@\w+|\d+|'[^']*'|"[^"]*")\s*
-	re := regexp.MustCompile(`\s*(=>|!=|>=|<=|<>|[(),=*.<>?]|[a-zA-Z_]\w*|@\w+|\d+|'[^']*'|"[^"]*")\s*`)
-	matches := re.FindAllStringSubmatch(sql, -1)
+	matches := tokenRegex.FindAllStringSubmatch(sql, -1)
 	tokens := make([]string, 0, len(matches))
 	for _, m := range matches {
 		tokens = append(tokens, m[1])
