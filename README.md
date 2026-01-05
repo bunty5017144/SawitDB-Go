@@ -74,7 +74,7 @@ package main
 import (
     "fmt"
     "log"
-    "sawitdb/pkg/client"
+    "github.com/WowoEngine/SawitDB-Go/pkg/client"
 )
 
 func main() {
@@ -106,7 +106,7 @@ package main
 
 import (
     "fmt"
-    "sawitdb/internal/engine"
+    "github.com/WowoEngine/SawitDB-Go/internal/engine"
 )
 
 func main() {

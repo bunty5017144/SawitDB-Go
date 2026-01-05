@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"sawitdb/internal/engine"
+	"github.com/WowoEngine/SawitDB-Go/internal/engine"
 )
 
 type Config struct {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
-	"sawitdb/pkg/client"
+	"github.com/WowoEngine/SawitDB-Go/pkg/client"
 )
 
 func main() {

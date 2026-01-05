@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math"
 	"regexp"
-	"sawitdb/internal/index"
-	"sawitdb/internal/parser"
-	"sawitdb/internal/storage"
+	"github.com/WowoEngine/SawitDB-Go/internal/index"
+	"github.com/WowoEngine/SawitDB-Go/internal/parser"
+	"github.com/WowoEngine/SawitDB-Go/internal/storage"
 	"sort"
 	"strings"
 )

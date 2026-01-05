@@ -1,7 +1,7 @@
 package main
 
 import (
-	"sawitdb/internal/server"
+	"github.com/WowoEngine/SawitDB-Go/internal/server"
 )
 
 func main() {

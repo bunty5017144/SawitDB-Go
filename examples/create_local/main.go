@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"sawitdb/internal/engine"
+	"github.com/WowoEngine/SawitDB-Go/internal/engine"
 )
 
 func main() {
